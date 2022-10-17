@@ -1,0 +1,20 @@
+SEND http://eventregistry.org/api/v1/article/getArticles
+content-type: application/json
+
+{
+  "action": "getArticles",
+  "keyword": "Barack Obama",
+  "articlesPage": 1,
+  "articlesCount": 100,
+  "articlesSortBy": "date",
+  "articlesSortByAsc": false,
+  "articlesArticleBodyLen": -1,
+  "resultType": "articles",
+  "dataType": [
+    "news",
+    "pr"
+  ],
+  "apiKey": "a934b23b-966e-46d9-bdfc-c6abcafd01a7",
+  "forceMaxDataTimeWindow": 31
+}
+
